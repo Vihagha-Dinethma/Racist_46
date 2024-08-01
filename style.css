@@ -304,9 +304,13 @@ section {
   border-radius: 0.6rem;
 }
 
+#feed .wrapper .pic-card {
+  width: 100%;
+}
+
 #feed .wrapper .pic-card img {
   border: 1px solid black;
-  width: 90vw;
+  width: 99%;
   height: auto;
   border-radius: 5px;
 }
