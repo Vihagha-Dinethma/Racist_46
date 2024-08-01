@@ -292,6 +292,83 @@ section {
   text-decoration: none;
 }
 
+#feed .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 1rem 0.5rem;
+  margin: 1.4rem;
+  background: rgba(42,41,50,0.42);
+  border-radius: 0.6rem;
+}
+
+#feed .wrapper .pic-card img {
+  border: 1px solid black;
+  width: 90vw;
+  height: auto;
+  border-radius: 5px;
+}
+
+#feed .wrapper .text-card {
+  width: 100%;
+}
+
+#feed .wrapper .text-card h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#feed .wrapper .text-card i {
+  color: rgba(182,31,31,0.894);
+}
+
+#feed .wrapper .text-card ul {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(185,185,185);
+  letter-spacing: 0.7px;
+  text-align: left;
+  padding: 10px 5px;
+  list-style: disc inside;
+}
+
+#feed .wrapper .text-card p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(185,185,185);
+  letter-spacing: 0.7px;
+  text-align: left;
+}
+
+#feed .wrapper .text-card h3 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(228,228,228);
+  letter-spacing: 0.7px;
+  text-align: center;
+}
+
+#feed .wrapper .text-card h2 {
+  border-top: 1px solid black;
+  margin-top: 10px;
+}
+
+#feed .wrapper .text-card a {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #b61f1fe4;
+  letter-spacing: 0.5px;
+  float: right;
+  padding: 5px 5px 0px 0px;
+  text-decoration: none;
+  }
+
 #links .wrapper {
   display: flex;
   justify-content: center;
