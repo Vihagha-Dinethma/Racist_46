@@ -138,6 +138,7 @@ header .brand {
   padding: 2px 5px;
   background: #b61f1fe4;
   border-radius: 3px;
+  text-decoration: none;
 }
 
 #profile-cards .dev {
@@ -151,6 +152,7 @@ header .brand {
   padding: 2px 5px;
   background: #b61f1fe4;
   border-radius: 3px;
+  text-decoration: none;
 }
 
 .shadow {
